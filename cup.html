@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Build your ice cream!</title>
+	<link rel="stylesheet" type="text/css" href="pbl.css">
+	<link rel="icon" type="media/x-icon" href="logo.png">
+	
+</head>
+<body id="cup-page">
+	<header class="header">
+        <a href="#" class="logo"><img src="logo.png" alt="logo" id="logo_img"> </a>
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span> </label>
+
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+            <li><a href="About_Us.html">About Us</a></li>
+        </ul>
+    </header>
+    <br><br><br>
+	<form>
+		<fieldset class="cup_menu">
+		<legend>Please fill up this form if you're ordering a cup ice-cream!</legend>
+		
+
+		<h1>Size of the cup</h1>
+			<img src="https://d1mv2b9v99cq0i.cloudfront.net/eyJidWNrZXQiOiJ3ZWItbmluamEtaW1hZ2VzIiwia2V5IjoiYTFzYWZldHlucGFja1wvaW1hZ2VzXC9wcm9kaW1nXC8xNDc2MTc3XzEucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo0ODAsImhlaWdodCI6NDgwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fSwidmVyc2lvbiI6IjZkZTljYTRkYzFhOWE1Y2I2YWYxM2Y1ZTYxNGQyYTBmMTEwMWIwOTMifQ==" class="scoops">
+		
+
+		<input type="radio" id="small" name="size" value="small">
+		<label for="small">small</label>
+		<input type="radio" id="medium" name="size" value="medium">
+		<label for="medium">medium</label>
+		<input type="radio" id="big" name="size" value="big">
+		<label for="big">big</label>
+		
+		<br>
+		<label for="colour">What colour would you like for your cup?</label>
+		<input type="color">
+		<br><br>
+
+
+		<label for="cuppo">Is there anything you would like us to write or draw the cup?</label><br><br>
+		<input type="text" id="cuppo" name="cuppo" autofocus>
+		<br><br>
+
+		<label for="scoop">How many scoops would you like?</label>
+		<input type="number" id="scoop" name="scoop" value="0" min="1" max="5">
+		<br><br>
+
+		<label for="flavour">What flavours would you like?</label><br><br>	
+
+		<br>
+		<input type="checkbox" id="chocolate" name="flavour1" value="chocolate">
+		<label for="chocolate"> <img src="https://i.imgur.com/VYJfT9o.png" class="scoops"> <figcaption>Chocolate</figcaption> </label>
+		
+		<input type="checkbox" id="vanilla" name="flavour2" value="vanilla">
+		<label for="vanilla"><img src="https://i.imgur.com/LSQwUrp.png" class="scoops"> <figcaption> Vanilla </figcaption></label>
+		
+		<input type="checkbox" id="strawberry" name="flavour3" value="strawberry">
+		<label for="strawberry"><img src="https://i.imgur.com/OwyUUS6.png" class="scoops"><figcaption>Strawberry</figcaption></label>
+		
+		<input type="checkbox" id="matcha" name="flavour4" value="matcha">
+		<label for="matcha"><img src="https://i.imgur.com/U85Dlny.png" class="scoops"><figcaption>Matcha</figcaption></label>
+		
+
+		
+		<input type="checkbox" id="durian" name="flavour5" value="durian">
+		<label for="durian"><img src="https://i.imgur.com/NSNNytf.png" class="scoops"><figcaption>Durian</figcaption></label>
+		
+
+		
+		<input type="checkbox" id="lime" name="flavour6" value="lime">
+		<label for="lime"><img src="https://i.imgur.com/ifcof0m.png" class="scoops"><figcaption>Lime</figcaption></label>
+		
+
+		<input type="checkbox" id="cookie" name="flavour7" value="cookie">
+		<label for="cookie"><img src="https://i.imgur.com/P6v5Qck.png" class="scoops"><figcaption>Cookies n cream</figcaption></label>
+
+
+		<input type="checkbox" id="mint" name="flavour8" value="mint">
+		<label for="mint"><img src="https://i.imgur.com/57Affaz.png" class="scoops"><figcaption>Mint chocolate</figcaption></label>
+
+
+		<input type="checkbox" id="blue" name="flavour9" value="blue">
+		<label for="blue"><img src="https://i.imgur.com/4FDRcQu.png" class="scoops"><figcaption>Blueberry vanilla</figcaption></label>
+
+
+		
+		<input type="checkbox" id="taro" name="flavour10" value="taro">
+		<label for="taro"><img src="https://i.imgur.com/78ryOmh.png" class="scoops"><figcaption>Taro vanilla swirl</figcaption></label>
+
+
+		<input type="checkbox" id="cocan" name="flavour11" value="cocan">
+		<label for="cocan"><img src="https://i.imgur.com/a1stk6n.png" class="scoops"><figcaption>Cotton candy</figcaption></label>
+
+
+		<input type="checkbox" id="chippie" name="flavour12" value="chippie">
+		<label for="chippie"><img src="https://i.imgur.com/CRcKuZl.png" class="scoops"><figcaption>Chocolate chip</figcaption></label>
+
+
+		<label for="flavour">Toppings <b>(please pick only 3 at most)</b></label><br><br>
+
+		<input type="checkbox" id="topping1" name="topping1" value="Sprinl">
+		<label for="topping1"><img src="https://i.imgur.com/iR8mzSG.png" class="scoops"><figcaption> sprinkles</figcaption></label>
+		
+		<input type="checkbox" id="topping2" name="topping2" value="Choco">
+		<label for="topping2"><img src="https://i.imgur.com/R6aFu5m.png" class="scoops"> <figcaption>Chocolate chips</figcaption></label>
+
+		<input type="checkbox" id="topping3" name="topping3" value="Choc">
+		<label for="topping3"><img src="https://i.imgur.com/ZSItlWM.png" class="scoops"><figcaption>Chocolate sprinkles</figcaption></label>
+
+
+		<input type="checkbox" id="topping4" name="topping4" value="cherry">
+		<label for="topping4"><img src="https://i.imgur.com/gncthu6.png" class="scoops"><figcaption>Maraschino cherry</figcaption></label>
+
+		<input type="checkbox" id="topping5" name="topping5" value="marsh">
+		<label for="topping5"><img src="https://i.imgur.com/Mx3HAsW.png" class="scoops"><figcaption>Mini marshmallows</figcaption></label>
+
+
+		<input type="checkbox" id="topping6" name="topping6" value="mm">
+		<label for="topping6"><img src="https://i.imgur.com/7YVfUTZ.png" class="scoops"><figcaption>Mini M&Ms</figcaption></label>
+		
+		<input type="checkbox" id="topping7" name="topping7" value="white">
+		<label for="topping7"><img src="https://i.imgur.com/8R7g1t8.png" class="scoops"><figcaption>White chocolate chips</figcaption></label>
+		
+		<input type="checkbox" id="topping8" name="topping8" value="oreo">
+		<label for="topping8"><img src="https://i.imgur.com/rkibfQt.png" class="scoops"><figcaption>Crumbled Oreos</figcaption></label>
+		
+		<input type="checkbox" id="topping9" name="topping9" value="strawberri">
+		<label for="topping9"><img src="https://i.imgur.com/XgOUqsi.png" class="scoops"><figcaption>Strawberry slices</figcaption></label>
+		
+		<input type="checkbox" id="topping10" name="topping10" value="banana">
+		<label for="topping10"><img src="https://i.imgur.com/uoLXWpb.png" class="scoops"><figcaption>Banana slices</figcaption></label>
+		
+		
+		<input type="checkbox" id="topping11" name="topping11" value="blueberri">
+		<label for="topping11"><img src="https://i.imgur.com/btdR4GK.png" class="scoops"><figcaption>Blueberry slices</figcaption></label>
+		<br>
+
+		<label for="flavour">Choose a syrup<3</label><br><br>
+		<input type="radio" id="none" name="syrup" value="none">
+		<label for="none">None</label>
+		<br>
+
+		
+		<input type="radio" id="choco_syrup" name="syrup" value="chocolate">
+		<label for="choco_syrup"><img src="https://s7d2.scene7.com/is/image/hersheysassets/CS_0_34000_00168_2_701_31240_042_Item_Front?fmt=webp-alpha&hei=908&qlt=75" class="scoops">
+		<figcaption>Chocolate</figcaption></label>
+		<br>
+
+		
+		<input type="radio" id="strawb_syrup" name="syrup" value="strawberry">
+		<label for="strawb_syrup"><img src="https://s7d2.scene7.com/is/image/hersheysassets/0_34000_00318_1_701_31800_021_Item_Front?fmt=webp-alpha&hei=908&qlt=75" class="scoops"><figcaption>Strawberry</figcaption></label>
+		<br>
+
+		<input type="radio" id="caramel" name="syrup" value="caramel">
+		<label for="caramel"><img src="https://i5.walmartimages.com/asr/6e6361d8-b0e5-4133-b7c4-89cd98e05fa1_2.df8db2d885ad38bfcdf5e70cd5ca4901.png" class="scoops"><figcaption>Caramel</figcaption></label>
+		<br><br>
+
+		<label for="time">Lastly, when would you like your ice-cream to be delivered?</label><br><br>
+		<input type="datetime-local">
+		<br><br>
+	
+	</form>
+		
+		<form action="prices.html"> 
+            <input type="submit" name="submit" value="Prices" class="button">
+        </form>
+        <form action="Payment.html"> 
+            <input type="submit" name="submit" value="submit" class="button">
+        </form>
+    </fieldset>
+	
+	<aside  id="center">
+
+    <footer>
+        Contact us:
+    </footer>
+    <footer>
+        09-123456789 , 09-987654321 
+    </footer>
+    <footer>
+    © 2023 MYANMAR(BURMA), Inc.
+     </footer>
+     <div>
+        <img src="pin.png" alt="pin" class="sm">
+        <img src="fb.png" alt="fb" class="sm">
+        <img src="ig.png" alt="ig" class="sm">
+    </div>
+   </aside> 
+
+</form>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Payment Plan</title>
+  <link rel="stylesheet" type="text/css" href="pbl.css">
+  <link rel="icon" type="media/x-icon" href="logo.png">
+  
+</head>
+<body id="payment">
+  <fieldset>
+        <legend>User's Information</legend>
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="fname" maxlength="10"><br><br>
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lname" maxlength="10"><br><br>
+
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email" maxlength="10"><br><br>
+
+      <label for="phonenumber">Phone Number</label>
+      <input type="text" id="phonenumber" name="phonenumber" maxlength="10"><br><br>
+
+      <label for="address">Address</label>
+      <input type="address" id="address" name="address" maxlength="10" required>
+
+    </fieldset>
+<fieldset>
+  <legend>How would you like to pay?</legend>
+    <p>Payment plans</p>
+    <label for="paymentplan">Choose one of the payment plan.</label>
+    <select id="paymentplan" name="paymentplan" size="5">
+    <optgroup label="Transfer from banks">
+    <option value="Wavepay">Wavepay</option>
+    <option value="Kpay">Kpay</option>
+    <option value="Cbpay">CBpay</option>
+    <option value="Paypel">Paypel</option>
+    </optgroup>
+
+        <optgroup label="COD">
+    <option value="Cash on delivery" selected >Cash On Delivery</option>
+    </optgroup>
+  </select>
+  <br><br>
+</fieldset>
+
+<form action="success1.html">
+  <input type="submit" valuable="Submit">
+
+  <aside id="center">
+
+    <footer>
+        Contact us:
+    </footer>
+    <footer>
+        09-123456789 , 09-987654321 
+    </footer>
+    <footer>
+    © 2023 MYANMAR(BURMA), Inc.
+     </footer>
+     <div>
+        <img src="pin.png" alt="pin" class="sm">
+        <img src="fb.png" alt="fb" class="sm">
+        <img src="ig.png" alt="ig" class="sm">
+    </div>
+   </aside> 
+</form>
+</body>
+</html>

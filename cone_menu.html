@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Build your ice cream!</title>
+	<link rel="stylesheet" type="text/css" href="pbl.css">
+    <link rel="icon" type="media/x-icon" href="logo.png">
+    
+</head>
+<body id="cone_menu">
+	<header class="header">
+        <a href="#" class="logo"><img src="logo.png" alt="logo" id="logo_img"> </a>
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span> </label>
+
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+            <li><a href="About_Us.html">About Us</a></li>
+        </ul>
+    </header>
+    <br><br><br>
+
+    <div class="building_ic">
+        <h1>Build your ice cream</h1>
+
+        <!--CONES-->
+        <input type="radio" id="cone1" name="cones" value="cone">
+        <label for="cone1"> <img src="cone1.png" alt="cone1" class="cones"> </label>
+
+        <input type="radio" id="cone2" name="cones" value="cone">
+        <label for="cone2"> <img src="cone2.png" alt="cone2" class="cones">  </label>
+
+        <input type="radio" id="cone3" name="cones" value="cone">
+        <label for="cone3"> <img src="cone3.png" alt="cone3" class="cones">  </label>
+        <br>
+
+        <label for="quantity">number of scoops</label>
+        <input type="number" id="quantity" name="quantity" value="0" min="0" max="3"><br>
+
+        <!--FLAVORS-->
+
+        <input type="checkbox" id="chocolate" name="flavors" value="chocolate">
+        <label for="chocolate">
+            <img src="chocolate.jpg" alt="chocolate"class="img">
+            
+        </label>
+
+        <input type="checkbox" id="blueberry" name="flavors" value="blueberry">
+        <label for="blueberry">
+            <img src="blueberry.jpg" alt="blueberry"class="img">
+        </label>
+
+        <input type="checkbox" id="cookie_dough" name="flavors" value="cookie_dough">
+        <label for="cookie_dough">
+            <img src="cookie_dough.jpg" alt="cookie_dough"class="img">
+        </label>
+        <br>
+
+        <input type="checkbox" id="strawberry" name="flavors" value="strawberry">
+        <label for="strawberry">
+            <img src="strawberry.jpg" alt="strawberry" class="img">
+        </label>
+
+        <input type="checkbox" id="raspberry" name="flavors" value="raspberry">
+        <label for="raspberry">
+            <img src="raspberry.jpg" alt="raspberry" class="img">
+        </label>
+
+        <input type="checkbox" id="vanilla" name="flavors" value="vanilla">
+        <label for="vanilla">
+            <img src="vanilla.png" alt="vanilla" class="img">
+        </label>
+        <br>
+
+        <input type="checkbox" id="taro" name="flavors" value="taro">
+        <label for="taro">
+            <img src="taro.jpg" alt="taro" class="img">
+        </label>
+        
+
+        <input type="checkbox" id="chocochip_ic" name="flavors" value="chocochip_ic">
+        <label for="chocochip_ic">
+            <img src="chocochip_ic.jpg" alt="chocochip_ic" class="img">
+        </label>
+
+        <input type="checkbox" id="matcha" name="flavors" value="matcha">
+        <label for="matcha">
+            <img src="matcha.jpg" alt="matcha" class="img">
+        </label>
+        <br>
+
+        <!--TOPPINGS-->
+        <h1>Choose some toppings!</h1>
+        <input type="checkbox" id="cara" name="flavors" value="cara">
+        <label for="cara">
+            <img src="cara.png" alt="cara" class="img">
+        </label>
+        <input type="checkbox" id="choco_chip" name="flavors" value="choco_chip">
+        <label for="choco_chip">
+            <img src="choco_chip.jpg" alt="choco_chip" class="img">
+        </label>
+        <input type="checkbox" id="choco_sauce" name="flavors" value="choco_sauce">
+        <label for="choco_sauce">
+            <img src="choco_sauce.jpg" alt="choco_sauce" class="img">
+        </label>
+        <br>
+        <input type="checkbox" id="m&m" name="flavors" value="m&m">
+        <label for="m&m">
+            <img src="m&m.jpg" alt="m&m" class="img">
+        </label>
+        <input type="checkbox" id="nuts" name="flavors" value="nuts">
+        <label for="nuts">
+            <img src="nuts.jpg" alt="nuts" class="img">
+        </label>
+        <input type="checkbox" id="oreo" name="flavors" value="oreo">
+        <label for="oreo">
+            <img src="oreo.jpg" alt="oreo" class="img">
+        </label> 
+        <br>
+        <input type="checkbox" id="sprinkle" name="flavors" value="sprinkle">
+        <label for="sprinkle">
+            <img src="sprinkle.jpg" alt="sprinkle" class="img">
+        </label>
+        
+        <input type="checkbox" id="strawb" name="flavors" value="strawb">
+        <label for="strawb">
+            <img src="strawb.jpg" alt="strawb"  class="img">
+        </label>
+        <br>
+        
+        <a href="prices.html"> 
+            <input type="submit" name="submit" value="Prices" class="button">
+        </a>
+        <a href="Payment.html"> 
+            <input type="submit" name="submit" value="submit" class="button">
+        </a>
+    </div>
+
+        <aside  id="center">
+    <footer>
+        Contact us:
+    </footer>
+    <footer>
+        09-123456789 , 09-987654321 
+    </footer>
+    <footer>
+    © 2023 MYANMAR(BURMA), Inc.
+     </footer>
+     <div>
+        <img src="pin.png" alt="pin" class="sm">
+        <img src="fb.png" alt="fb" class="sm">
+        <img src="ig.png" alt="ig" class="sm">
+    </div>
+   </aside>
+
+    
+</body>
+</html>
